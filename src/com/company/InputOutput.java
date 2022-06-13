@@ -41,10 +41,6 @@ public class InputOutput {
             partida.turno();
         }
     }
-
-    public Partida getPartida() {
-        return partida;
-    }
 }
 
 

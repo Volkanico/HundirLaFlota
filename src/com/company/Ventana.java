@@ -16,11 +16,9 @@ public class Ventana extends JFrame {
         //--CARACTERISTICAS DE LA VENTANA
 
         this.setResizable(false);
-
         this.setIconImage(new ImageIcon("src\\imagenes\\icono.png").getImage());
 
         setBounds(100, 100, 490, 1010);
-
         setLocationRelativeTo(null);
 
         BorderLayout layout = new BorderLayout();
@@ -35,13 +33,8 @@ public class Ventana extends JFrame {
         titulo = new Titulo();
         add(titulo, BorderLayout.NORTH);
 
-        //-------------------------
-
         setVisible(true);
-
     }
-
-
 }
 
 

@@ -18,9 +18,6 @@ public class Titulo extends JPanel {
         setLayout(new GridLayout(2, 1));
         panel_titulo.setBorder(new EmptyBorder(0, 0, 0, 0));
         add(barra);
-
-        //------------------------------
-
         add(panel_titulo);
 
         this.setBorder(new EmptyBorder(0, 0, 0, 0));

@@ -14,7 +14,6 @@ public class Boton extends JButton {
 
     public static Color color = Color.green;
 
-    //---------------------------------
     Boton(String texto) {
         this.setText(texto);
     }
@@ -44,34 +43,6 @@ public class Boton extends JButton {
     public void setHundido(boolean bool) {
         hundido = bool;
     }
-
-    //----GETTERS
-
-    public boolean getActivo() {
-        return activo;
-    }
-
-    public boolean getIluminado() {
-        return iluminado;
-    }
-
-    public int getIdBarco() {
-        return id_barco;
-    }
-
-    public boolean getTocado() {
-        return tocado;
-    }
-
-    public boolean getAgua() {
-        return agua;
-    }
-
-    public boolean getHundido() {
-        return agua;
-    }
-
-    //---METODOS
 
     public void setColorEleccionVerde() {
         this.setBackground(new Color(153, 255, 153));
@@ -104,5 +75,31 @@ public class Boton extends JButton {
 
     public void setColorHundido() {
         this.setBackground(Color.red);
+    }
+
+    //----GETTERS
+
+    public boolean getActivo() {
+        return activo;
+    }
+
+    public boolean getIluminado() {
+        return iluminado;
+    }
+
+    public int getIdBarco() {
+        return id_barco;
+    }
+
+    public boolean getTocado() {
+        return tocado;
+    }
+
+    public boolean getAgua() {
+        return agua;
+    }
+
+    public boolean getHundido() {
+        return agua;
     }
 }

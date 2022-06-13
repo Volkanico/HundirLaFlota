@@ -1,7 +1,6 @@
 package com.company;
 import javax.swing.*;
 
-
 public class Partida {
     private Ventana juego = new Ventana();
     public Tablero t_jugador = juego.juego.t_jugador;
